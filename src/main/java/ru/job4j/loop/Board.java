@@ -10,7 +10,10 @@ public class Board {
                     System.out.print(" ");
                 }
             }
+<<<<<<< HEAD
             /* добавляем перевод на новую строку. */
+=======
+>>>>>>> origin/master
             System.out.println();
         }
     }
