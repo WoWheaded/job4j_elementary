@@ -31,4 +31,12 @@ class FindLoopTest {
         int expected = 4;
         assertThat(result).isEqualTo(expected);
     }
+    @Test
+    void whenArrayHas123Then0() {
+        int[] data = new int[] {123, 4213, 341, 212, 22, 34, 4543, 2268};
+        int el = 123;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 0;
+        assertThat(result).isEqualTo(expected);
+    }
 }
